@@ -1,0 +1,39 @@
+joseph.jo@dell.com
+versioning value
+1)when not chekcd means its versioning, if not published used old data, if published used new data
+2)if checked its not versioning and published it then it will take new data.
+
+Debug:
+state id you can check using value API
+
+->only use the boomi atomsphere as service or use application service
+->for now flow will deployed only to Boomi flow cloud
+
+https://github.com/manywho/ui-html5/wiki
+
+->shouldn't add multiple rule for single component
+->Page condition load the page
+->two buttons on same page will look for all conditions,   use either Business rule or JS
+
+->set values in page component???
+->call service on drop down check boxes??? no we cant
+->fields type changes or new fild added json process??? import the service, try saving types/values also
+->not to search from first column in a table
+->iterate large number of ocument
+->externalid is mandatory field in file type
+
+save(get/query),load(save or insert),delete(edlete) to call application services and also data actions means DB table
+->better use Message actions
+
+->Flow runtime service to lunch flow
+->instance of flow is called state
+
+->API first meaning everything in flow means all shapes or moving shapes in canvas is API call to FLow engine and creates a new flow version
+boomi_training@dell.com
+
+->join is the state id
+->Flow cliemt connector to launch flow
+
+->we can isable the Join url in a player(replaceUrl to false) check player documantations in help.boomi.com
+->colabration= true will make same state in different location in sync
+
